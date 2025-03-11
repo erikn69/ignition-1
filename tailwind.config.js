@@ -6,6 +6,9 @@ module.exports = {
         './node_modules/@flareapp/ignition-ui/src/**/*.{js,jsx,ts,tsx}',
     ],
     darkMode: 'class', // or 'media' or 'class'
+    corePlugins: {
+        preflight: false,
+    },
     // important: true,
     theme: {
         extend: {
